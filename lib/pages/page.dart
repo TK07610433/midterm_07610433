@@ -114,7 +114,9 @@ class _HomePageState extends State<homepage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Midterm Exam 07610433'),
+        backgroundColor: Colors.green
       ),
+
       body: Container(
         decoration: BoxDecoration(
           color: Colors.greenAccent, //สีพื้นหลังของ Container
